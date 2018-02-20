@@ -1,0 +1,22 @@
+{
+    "name": "kherge/move",
+    "description": "Implements one-time access similar to Rust's move semantics.",
+    "type": "library",
+    "license": ["Apache-2.0", "MIT"],
+    "authors": [
+        {
+            "name": "Kevin Herrera",
+            "email": "kevin@herrera.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KHerGe\\Rust\\": "src/KHerGe/Rust"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\KHerGe\\Rust\\": "tests/KHerGe/Rust"
+        }
+    }
+}
